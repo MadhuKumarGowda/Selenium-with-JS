@@ -1,0 +1,16 @@
+{
+  "name": "seleniumwithjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon homepage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "selenium-webdriver": "^4.28.1"
+  }
+}
