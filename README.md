@@ -1,0 +1,1 @@
+This Git repository offers a comprehensive collection of Selenium automation fundamentals using JavaScript. It includes well-documented scripts and examples that guide users through the basics of web automation, making it an excellent resource for both beginners and experienced developers looking to enhance their skills
