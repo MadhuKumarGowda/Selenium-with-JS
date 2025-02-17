@@ -1,4 +1,4 @@
-const { Builder, Browser, By, Key, until } = require("selenium-webdriver");
+const { Builder } = require("selenium-webdriver");
 
 init = async () => {
   let driver = await new Builder().forBrowser(Browser.CHROME).build();
@@ -13,7 +13,8 @@ init = async () => {
     await driver.sleep(5000);
   } catch (error) {
   } finally {
-    await driver.quit(); 
+    await driver.quit();
+  }
 };
 
 init();
